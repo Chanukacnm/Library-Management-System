@@ -1,0 +1,59 @@
+<div class="container1">
+
+  <h1>Display Items</h1>
+  <a href="home-page" class="previous">&laquo; BACK</a><br><br>
+  <form [formGroup]="displyBookForm" (ngSubmit)="displyBook()">
+    <div class="Display-Books">
+      <h2> Display Books</h2>
+      <div class="formGroup01">
+        <label>Book Code</label><br>
+        <input type="text" class="formControl01" formControlName="bookCode" placeholder="Book Code" required >
+      </div>
+
+      <br>
+
+      <div class="formCheck">
+        <input class="formCheckInput"  type="checkbox" checked="checked">
+        <label class="formCheckLabel">
+          Display a Book
+        </label>
+      </div>
+      <br><br>
+
+      <label class="displayBk">{{diskBk}}</label>
+      <br><br><br><br>
+      <button class="btn_Reset" type="reset" >Reset</button>
+      <button class="btn_submit" type="submit">Display a Book </button>
+    </div>
+
+
+
+  </form>
+
+  <form [formGroup]="displyDVDForm" (ngSubmit)="displDVD()">
+    <div class="Display-DVD">
+      <h2> Display DVDs</h2>
+      <div class="formGroup01">
+        <label>DVD Code</label><br>
+        <input type="text" class="formControl01" formControlName="dvdCode" placeholder="DVD Code" required >
+      </div>
+
+      <br>
+
+      <div class="formCheck">
+        <input class="formCheckInput"  type="checkbox" checked="checked">
+        <label class="formCheckLabel">
+          Display a DVD
+        </label>
+      </div>
+      <br><br>
+
+      <label class="displaydVd">{{diskDVD}}</label>
+      <br><br><br><br>
+      <button class="btn_Reset" type="reset" >Reset</button>
+      <button class="btn_submit" type="submit">Display a DVD </button>
+    </div>
+
+  </form>
+
+</div>

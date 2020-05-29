@@ -1,0 +1,27 @@
+<div class="container1">
+  <h1><b>Login Form</b></h1>
+  <div class="img">
+
+    <img src="Capture16.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="formGroup01">
+    <label><b>User Name</b></label><br>
+    <input type="text" class="formControl01" formControlName="uName"  placeholder="Enter User Name" [ngModel]="uName" >
+  </div>
+  <div class="formGroup01">
+    <label><b>Password</b></label><br>
+    <input type="password" class="formControl01" formControlName="pwd" placeholder="Enter Password" [ngModel]="pwd" >
+  </div>
+
+  <button class="btn_login" (click)="logM()" id="btnLogin" type="submit">Login </button>
+  <button class="btn_cancel" type="reset">Cancel </button>
+</div>
+
+
+
+
+
+
+
+

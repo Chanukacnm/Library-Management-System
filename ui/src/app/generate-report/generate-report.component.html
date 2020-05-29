@@ -1,0 +1,59 @@
+<div class="container1">
+
+  <h1>Generate a Report</h1>
+  <a href="home-page" class="previous">&laquo; BACK</a><br><br>
+  <form [formGroup]="bookGenRep" (ngSubmit)="bookGenReport()">
+    <div class="GenerateBook">
+      <h2>Generate Report from Books</h2>
+      <div class="formGroup01">
+        <label>Borrow Book Code</label><br>
+        <input type="text" class="formControl01" formControlName="brrBkCode" placeholder="Borrow Book Code" required >
+      </div>
+
+      <br>
+
+      <div class="formCheck">
+        <input class="formCheckInput"  type="checkbox" checked="checked">
+        <label class="formCheckLabel">
+          Generate a Report
+        </label>
+      </div>
+      <br><br>
+
+      <label class="GENRBk">{{"You Borrowed "+ genBK + " Book."}}</label>
+      <br><br><br><br>
+      <button class="btn_Reset" type="reset" >Reset</button>
+      <button class="btn_submit" type="submit">Generate a Report </button>
+    </div>
+
+
+
+  </form>
+
+  <form [formGroup]="dvdGenRep" (ngSubmit)="dvdGenReport()">
+    <div class="GenerateDvds">
+      <h2>Generate Report from Dvds</h2>
+      <div class="formGroup01">
+        <label>Borrow DVD Code</label><br>
+        <input type="text" class="formControl01" formControlName="brDvdCode" placeholder="DVD Code" required >
+      </div>
+
+      <br>
+
+      <div class="formCheck">
+        <input class="formCheckInput"  type="checkbox" checked="checked">
+        <label class="formCheckLabel">
+          Display a DVD
+        </label>
+      </div>
+      <br><br>
+
+      <label class="GENRdVd">{{"You Borrowed "+genDVD +" Dvd."}}</label>
+      <br><br><br><br>
+      <button class="btn_Reset" type="reset" >Reset</button>
+      <button class="btn_submit" type="submit">Generate a Report </button>
+    </div>
+
+  </form>
+
+</div>

@@ -1,0 +1,110 @@
+.Borrow-Books{
+  float:left;
+  padding-left: 200px;
+  padding-right: 50px;
+
+}
+.Borrow-Dvds{
+  float: right;
+  padding-right: 200px;
+}
+h1{
+  text-align: center;
+  background-position: center;
+  margin: 40px auto 20px auto;
+  font-size: 250%;
+  background-color:white;
+  border-radius: 80px;
+  width: 260px;
+}
+h2{
+  font-size: 180%;
+  color: white;
+}
+
+.formGroup01{
+  padding:05px;
+  margin: 5px;
+  font-size: 110%;
+  color: white;
+}
+.formControl01{
+  width: 100%;
+  padding: 15px 25px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+.btn_submit{
+  background-color: #0066ff;
+  color: white;
+  padding: 13px 30px;
+  font-size: 100%;
+  border-radius: 90px;
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
+  border: 2px solid white;
+
+}
+.container1{
+  padding-bottom: 800px;
+  background-image: url(D:\IIT\2nd_Year\OOP\W1698507\OOP1\ui\src\assets\capture4.jpg); 
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.btn_submit:hover {
+  background-color: #003d99;
+  border: 2px solid white;
+}
+
+.btn_Reset{
+  background-color: #ff3333;
+  color: white;
+  padding: 13px 30px;
+  font-size: 100%;
+  border-radius: 90px;
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
+  border: 2px solid white;
+
+}
+
+.btn_Reset:hover {
+  background-color: #cc0000;
+  border: 2px solid white;
+}
+
+.previous {
+  background-color: #cc00cc;
+  color: black;
+  text-decoration: none;
+  border-radius: 22px;
+  padding: 15px 20px;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  margin-left: 50px;
+}
+
+.previous:hover {
+  background-color: #800080;
+  border: 2px solid white;
+}
+
+.formCheckInput{
+  cursor: pointer;
+
+}
+.formCheckLabel{
+  margin-bottom: 12px;
+  margin-left: 10px;
+  font-size: 18px;
+  color: white;
+}
+

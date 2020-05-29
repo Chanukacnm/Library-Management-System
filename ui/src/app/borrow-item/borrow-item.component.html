@@ -1,0 +1,96 @@
+<div class="container1">
+  <h1>Borrow Items</h1>
+  <a href="home-page" class="previous">&laquo; BACK</a><br>
+  <form [formGroup]="brrBook" (ngSubmit)="borrowBook()">
+    <div class="Borrow-Books">
+      <h2> Borrow Books</h2>
+      <div class="formGroup01">
+        <label>Borrow Book Code</label><br>
+        <input type="text" class="formControl01" formControlName="brrBkCode" placeholder="Borrow Book Code" required>
+      </div>
+
+      <div class="formGroup01">
+        <label>Book Name </label><br>
+        <input type="text" class="formControl01" formControlName="bookName" placeholder="Book Name" required>
+
+      </div>
+
+      <div class="formGroup01">
+        <label>Current Reader</label><br>
+        <input type="text" class="formControl01" formControlName="curReader" placeholder="Current Reader" required>
+
+      </div>
+      <div class="formGroup01">
+        <label>Borrow Date</label><br>
+        <input type="text" class="formControl01" formControlName="brrDate" placeholder="Borrow Date" required>
+
+      </div>
+
+      <div class="formGroup01">
+        <label>Book Code</label><br>
+        <input type="text" class="formControl01" formControlName="bookCode" placeholder="Book Code" required>
+      </div>
+
+      <br>
+
+      <div class="formCheck">
+        <input class="formCheckInput" type="checkbox" checked="checked">
+        <label class="formCheckLabel">
+          Borrow your Book
+        </label>
+      </div>
+
+      <br>
+      <button class="btn_Reset" type="reset" >Reset</button>
+      <button class="btn_submit" type="submit">Borrow Book </button>
+    </div>
+
+  </form>
+
+  <form [formGroup]="brrDVD" (ngSubmit)="borrowDVD()">
+    <div class="Borrow-Dvds">
+      <h2> Borrow Dvds</h2>
+      <div class="formGroup01">
+        <label>Borrow Dvd Code</label><br>
+        <input type="text" class="formControl01" formControlName="brDvdCode" placeholder="Borrow Dvd Code" required>
+      </div>
+
+      <div class="formGroup01">
+        <label>DVD Name</label><br>
+        <input type="text" class="formControl01" formControlName="dvdName" placeholder="DVD Name" required>
+
+      </div>
+
+      <div class="formGroup01">
+        <label>Current owner</label><br>
+        <input type="text" class="formControl01" formControlName="currOwner" placeholder="Current owner" required>
+
+      </div>
+
+      <div class="formGroup01">
+        <label>Borrow Date</label><br>
+        <input type="text" class="formControl01" formControlName="brrDate" placeholder="Borrow Date" required>
+
+      </div>
+
+      <div class="formGroup01">
+        <label>Dvd Code</label><br>
+        <input type="text" class="formControl01" formControlName="dvdCode" placeholder="Dvd Code" required>
+      </div>
+
+      <br>
+
+      <div class="formCheck">
+        <input class="formCheckInput"  type="checkbox" checked="checked">
+        <label class="formCheckLabel">
+          Borrow Dvds
+        </label>
+      </div>
+
+      <br>
+      <button class="btn_Reset" type="reset" >Reset</button>
+      <button class="btn_submit" type="submit">Borrow Dvd </button>
+    </div>
+  </form>
+
+</div>

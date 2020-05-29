@@ -1,0 +1,70 @@
+h1{
+  text-align: center;
+  background-position: center;
+  margin: 40px auto 20px auto;
+  font-size: 290%;
+  background-color:white;
+  border-radius: 80px;
+  width: 300px;
+}
+
+.btn_login {
+  background-color: #0066ff;
+  color: wheat;
+  padding: 13px 30px;
+  font-size: 100%;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-right: 240px;
+  margin-left: 360px;
+  width:250px;
+  border: 2px solid #003d99;
+
+}
+
+.btn_login:hover {
+  background-color: #003d99;
+  border: 2px solid #0066ff;
+}
+.btn_cancel {
+  background-color: #ff3333;
+  color: wheat;
+  padding: 13px 30px;
+  font-size: 100%;
+  border-radius: 90px;
+  cursor: pointer;
+  width:250px;
+  border: 2px solid #cc0000;
+}
+.btn_cancel:hover {
+  background-color: #cc0000;
+  border: 2px solid #ff3333;
+}
+
+.formGroup01{
+  padding:05px;
+  margin: 5px;
+  margin-left: 350px;
+  font-size: 20px;
+}
+
+.formControl01{
+  width:700px;
+  padding: 15px 25px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+
+
+.img {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}

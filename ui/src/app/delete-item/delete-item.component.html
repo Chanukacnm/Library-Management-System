@@ -1,0 +1,51 @@
+<div class="container1">
+  <h1>Delete Items</h1>
+  <a href="home-page" class="previous">&laquo; BACK</a><br><br>
+  <form [formGroup]="delBook" (ngSubmit)="deletBook()">
+    <div class="Delete-Books">
+      <h2> Delete Books</h2>
+      <div class="formGroup01">
+        <label>Book Code</label><br>
+        <input type="text" class="formControl01" formControlName="bookCode" placeholder="Book Code" required >
+      </div>
+
+      <br>
+
+      <div class="formCheck">
+        <input class="formCheckInput"  type="checkbox" checked="checked">
+        <label class="formCheckLabel">
+          Delete a Book
+        </label>
+      </div>
+
+      <br>
+      <button class="btn_Reset" type="reset" >Reset</button>
+      <button class="btn_submit" type="submit">Delete Book </button>
+    </div>
+
+  </form>
+
+  <form [formGroup]="delDvd" (ngSubmit)="deletDvd()">
+    <div class="Delete-Dvds">
+      <h2> Delete Dvds</h2>
+      <div class="formGroup01">
+        <label>Dvd Code</label><br>
+        <input type="text" class="formControl01" formControlName="dvdCode" placeholder="Dvd Code" required >
+      </div>
+
+      <br>
+
+      <div class="formCheck">
+        <input class="formCheckInput" type="checkbox" checked="checked">
+        <label class="formCheckLabel">
+          Delete a Dvd
+        </label>
+      </div>
+
+      <br>
+      <button class="btn_Reset" type="reset" >Reset</button>
+      <button class="btn_submit" type="submit">Delete Dvd </button>
+    </div>
+  </form>
+
+</div>

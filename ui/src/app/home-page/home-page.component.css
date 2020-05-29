@@ -1,0 +1,79 @@
+.test2{
+  color: #ffffff;
+  padding: 30px;
+  padding-top:5px;
+  padding-bottom: 50px;
+  text-align: center;
+  word-spacing: 7px;
+  font-size: 70px;
+  width: 850px;
+  margin-left: 250px;
+  border-radius: 63px;
+  font-family: 'Black Ops One', cursive;
+  height: 40px;
+  background-color:#cc4400;
+  margin-bottom:20px;
+
+
+}
+.test2:hover{
+  background-color: #FFFFFF;
+  color: #cc4400;
+  cursor: default;
+  font-size: 80px;
+  padding: 40px;
+  margin-left: 200px;
+  width: 945px;
+  padding-top: 12px;
+  padding-bottom: 70px;
+
+}
+ul {
+  list-style-type: none;
+  margin-left: 580px;
+  margin-top: 100px;
+  padding: 5px;
+  width: 300px;
+  background-color: #1a1a1a;
+  border-radius: 25px;
+
+
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+li {
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid #555;
+
+
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.active {
+  background-color: #ff8533;
+}
+
+a:hover:not(.active) {
+  background-color: #009999;
+}
+
+.img{
+  background-image: url(D:\IIT\2nd_Year\OOP\W1698507\OOP1\ui\src\assets\capture13.jpg); 
+  padding-bottom:150px ;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

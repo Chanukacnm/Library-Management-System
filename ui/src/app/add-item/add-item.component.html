@@ -1,0 +1,109 @@
+<div class="container1">
+  <h1>Add New Items</h1>
+  <a href="home-page" class="previous">&laquo; BACK</a><br>
+  <form [formGroup]="addBook" (ngSubmit)="aBook()">
+
+    <div class="Add-Books">
+      <h2> Add Books</h2>
+      <div class="formGroup01">
+        <label>Book Code</label><br>
+        <input type="text" class="formControl01" formControlName="bookCode" placeholder="Book Code" required>
+      </div>
+
+      <div class="formGroup01">
+        <label>Book Name </label><br>
+        <input type="text" class="formControl01" formControlName="bookName" placeholder="Book Name" required>
+      </div>
+      <div class="formGroup01">
+        <label>IsbN </label><br>
+        <input type="text" class="formControl01" formControlName="IsbN" placeholder="IsbN" required>
+      </div>
+
+      <div class="formGroup01">
+        <label>Book Author</label><br>
+        <input type="text" class="formControl01" formControlName="bookAuthor" placeholder="Author Name" required>
+      </div>
+
+      <div class="formGroup01">
+        <label>Book Publishr</label><br>
+        <input type="text" class="formControl01" formControlName="bookPublisher" placeholder="Publishr Name" required>
+
+      </div>
+
+      <div class="formGroup01">
+        <label>Total Number of pages</label><br>
+        <input type="text" class="formControl01" formControlName="numberOfPages" placeholder="Total Number of pages" required>
+      </div>
+
+      <br><br>
+      <label>{{addBk}}</label><br>
+      <div class="formCheck">
+        <input class="formCheckInput"  type="checkbox" checked="checked">
+        <label class="formCheckLabel">
+          Print a Copy
+        </label> <br><br>
+      </div>
+      <button class="btn_Reset" type="reset" >Reset</button>
+      <button class="btn_submit" type="submit">Add Book </button>
+
+
+    </div>
+
+  </form>
+
+  <form [formGroup]="addDVD" (ngSubmit)="aDvd()">
+
+
+    <div class="Add-Dvds">
+      <h2> Add Dvds</h2>
+      <div class="formGroup01">
+        <label>Dvd Code</label><br>
+        <input type="text" class="formControl01" formControlName="dvdCode" placeholder="Dvd Code" required>
+      </div>
+
+      <div class="formGroup01">
+        <label>Dvd Name</label><br>
+        <input type="text" class="formControl01" formControlName="dvdName" placeholder="Dvd Name" required>
+
+      </div>
+
+      <div class="formGroup01">
+        <label>Available Languages</label><br>
+        <input type="text" class="formControl01" formControlName="languages" placeholder="Available Languages" required>
+
+      </div>
+
+      <div class="formGroup01">
+        <label>Available Subtitles</label><br>
+        <input type="text" class="formControl01" formControlName="subtitles" placeholder="Available Subtitles" required>
+
+      </div>
+
+      <div class="formGroup01">
+        <label>Producer</label><br>
+        <input type="text" class="formControl01" formControlName="producr" placeholder="Producers Names" required>
+
+      </div>
+
+      <div class="formGroup01">
+        <label>Actor</label><br>
+        <input type="text" class="formControl01" formControlName="actor" placeholder="Actor Names" required>
+
+      </div>
+      <br><br>
+      <label>{{addDVDs}}</label><br><br>
+
+
+      <div class="formCheck">
+        <input class="formCheckInput"  type="checkbox" checked="checked">
+        <label class="formCheckLabel">
+          Print a Copy
+        </label>
+      </div>
+
+      <br>
+      <button class="btn_Reset" type="reset">Reset</button>
+      <button class="btn_submit" type="submit">Add Dvd </button>
+    </div>
+  </form>
+</div>
